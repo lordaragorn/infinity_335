@@ -9131,32 +9131,32 @@ static WorldStatePair NA_world_states[] =
 static WorldStatePair TF_world_states[] =                   // Terokkar Forest
 {
     { 0xa41, 0x0 },                // 10 // 2625 capture bar pos
-+    { 0xa40, 0x14 },               // 11 // 2624 capture bar neutral
-+    { 0xa3f, 0x0 },                // 12 // 2623 show capture bar
-+    { 0xa3e, 0x0 },                // 13 // 2622 horde towers controlled
-+    { 0xa3d, 0x5 },                // 14 // 2621 ally towers controlled
-+    { 0xa3c, 0x0 },                // 15 // 2620 show towers controlled
-+    { 0xa88, 0x0 },                // 16 // 2696 SE Neu
-+    { 0xa87, 0x0 },                // 17 // SE Horde
-+    { 0xa86, 0x0 },                // 18 // SE Ally
-+    { 0xa85, 0x0 },                // 19 //S Neu
-+    { 0xa84, 0x0 },                // 20 S Horde
-+    { 0xa83, 0x0 },                // 21 S Ally
-+    { 0xa82, 0x0 },                // 22 NE Neu
-+    { 0xa81, 0x0 },                // 23 NE Horde
-+    { 0xa80, 0x0 },                // 24 NE Ally
-+    { 0xa7e, 0x0 },                // 25 // 2686 N Neu
-+    { 0xa7d, 0x0 },                // 26 N Horde
-+    { 0xa7c, 0x0 },                // 27 N Ally
-+    { 0xa7b, 0x0 },                // 28 NW Ally
-+    { 0xa7a, 0x0 },                // 29 NW Horde
-+    { 0xa79, 0x0 },                // 30 NW Neutral
-+    { 0x9d0, 0x5 },                // 31 // 2512 locked time remaining seconds first digit
-+    { 0x9ce, 0x0 },                // 32 // 2510 locked time remaining seconds second digit
-+    { 0x9cd, 0x0 },                // 33 // 2509 locked time remaining minutes
-+    { 0x9cc, 0x0 },                // 34 // 2508 neutral locked time show
-+    { 0xad0, 0x0 },                // 35 // 2768 horde locked time show
-+    { 0xacf, 0x1 }                // 36 // 2767 ally locked time show
+    { 0xa40, 0x14 },               // 11 // 2624 capture bar neutral
+    { 0xa3f, 0x0 },                // 12 // 2623 show capture bar
+    { 0xa3e, 0x0 },                // 13 // 2622 horde towers controlled
+    { 0xa3d, 0x5 },                // 14 // 2621 ally towers controlled
+    { 0xa3c, 0x0 },                // 15 // 2620 show towers controlled
+    { 0xa88, 0x0 },                // 16 // 2696 SE Neu
+    { 0xa87, 0x0 },                // 17 // SE Horde
+    { 0xa86, 0x0 },                // 18 // SE Ally
+    { 0xa85, 0x0 },                // 19 //S Neu
+    { 0xa84, 0x0 },                // 20 S Horde
+    { 0xa83, 0x0 },                // 21 S Ally
+    { 0xa82, 0x0 },                // 22 NE Neu
+    { 0xa81, 0x0 },                // 23 NE Horde
+    { 0xa80, 0x0 },                // 24 NE Ally
+    { 0xa7e, 0x0 },                // 25 // 2686 N Neu
+    { 0xa7d, 0x0 },                // 26 N Horde
+    { 0xa7c, 0x0 },                // 27 N Ally
+    { 0xa7b, 0x0 },                // 28 NW Ally
+    { 0xa7a, 0x0 },                // 29 NW Horde
+    { 0xa79, 0x0 },                // 30 NW Neutral
+    { 0x9d0, 0x5 },                // 31 // 2512 locked time remaining seconds first digit
+    { 0x9ce, 0x0 },                // 32 // 2510 locked time remaining seconds second digit
+    { 0x9cd, 0x0 },                // 33 // 2509 locked time remaining minutes
+    { 0x9cc, 0x0 },                // 34 // 2508 neutral locked time show
+    { 0xad0, 0x0 },                // 35 // 2768 horde locked time show
+    { 0xacf, 0x1 }                // 36 // 2767 ally locked time show
 };
 
 static WorldStatePair ZM_world_states[] =                   // Zangarmarsh

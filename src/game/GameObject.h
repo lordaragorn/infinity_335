@@ -35,7 +35,6 @@
 // from `gameobject_template`
 struct GameObjectInfo
 {
-    explicit GameObjectData() : dbData(true) {}
     uint32  id;
     uint32  type;
     uint32  displayId;
@@ -47,8 +46,6 @@ struct GameObjectInfo
     uint32  flags;
     float   size;
     uint32  questItems[6];
-    uint8 artKit;
-	bool dbData;
     union                                                   // different GO types have different data field
     {
         //0 GAMEOBJECT_TYPE_DOOR
@@ -555,6 +552,7 @@ enum GOState
 // from `gameobject`
 struct GameObjectData
 {
+    explicit GameObjectData() : dbData(true) {}
     uint32 id;                                              // entry in gamobject_template
     uint16 mapid;
     uint16 phaseMask;
@@ -570,6 +568,8 @@ struct GameObjectData
     uint32 animprogress;
     GOState go_state;
     uint8 spawnMask;
+    uint8 artKit; 
+    bool dbData; 
 };
 
 // For containers:  [GO_NOT_READY]->GO_READY (close)->GO_ACTIVATED (open) ->GO_JUST_DEACTIVATED->GO_READY        -> ...
