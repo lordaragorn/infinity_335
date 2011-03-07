@@ -224,6 +224,25 @@ libmangosgame_a_SOURCES = \
 	ObjectPosSelector.h \
 	Opcodes.cpp \
 	Opcodes.h \
+    OutdoorPvP.cpp \
+    OutdoorPvP.h \
+    OutdoorPvPEP.cpp \
+    OutdoorPvPEP.h \
+    OutdoorPvPGH.cpp \
+	OutdoorPvPGH.h \
+    OutdoorPvPHP.cpp \
+    OutdoorPvPImpl.h \
+    OutdoorPvPMgr.cpp \
+    OutdoorPvPMgr.h \
+    OutdoorPvPNA.cpp \
+    OutdoorPvPNA.h \
+	OutdoorPvPSI.cpp \
+    OutdoorPvPSI.h \
+    OutdoorPvPTF.cpp \
+    OutdoorPvPTF.h \
+    OutdoorPvPZM.cpp \
+    OutdoorPvPZM.h \
+    ZoneScript.h \
 	Path.h \
     PathFinder.cpp \
 	PathFinder.h \
