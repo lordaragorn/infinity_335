@@ -98,6 +98,10 @@ class MANGOS_DLL_DECL ObjectAccessor : public MaNGOS::Singleton<ObjectAccessor, 
         // Search player at any map in world and other objects at same map with `obj`
         // Note: recommended use Map::GetUnit version if player also expected at same map only
         static Unit* GetUnit(WorldObject const& obj, ObjectGuid guid);
+		
+        // For OPVP
+		static GameObject* GetGameObjectInWorld(ObjectGuid guid);
+		static Creature* GetCreatureInWorld(ObjectGuid guid);
 
         // Player access
         MANGOS_DLL_SPEC static Player* FindPlayer(ObjectGuid guid);         // if need player at specific map better use Map::GetPlayer

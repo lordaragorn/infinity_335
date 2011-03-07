@@ -586,6 +586,7 @@ enum Team
     HORDE               = 67,
     ALLIANCE            = 469,
 };
+const Team TeamId2Team[3] = {ALLIANCE, HORDE, TEAM_NONE};
 
 enum SpellEffects
 {

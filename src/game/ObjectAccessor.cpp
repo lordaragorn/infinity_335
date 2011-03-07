@@ -62,6 +62,28 @@ ObjectAccessor::GetUnit(WorldObject const &u, ObjectGuid guid)
     return u.GetMap()->GetAnyTypeCreature(guid);
 }
 
+// For OPVP
+GameObject*
+ObjectAccessor::GetGameObjectInWorld(ObjectGuid guid)
+{
+	GameObject* go = HashMapHolder<GameObject>::Find(guid);
+	if(!go || !go->IsInWorld())
+		return NULL;
+
+	return go;
+}
+
+// For OPVP
+Creature*
+ObjectAccessor::GetCreatureInWorld(ObjectGuid guid)
+{
+	Creature* cr = HashMapHolder<Creature>::Find(guid);
+	if(!cr || !cr->IsInWorld())
+		return NULL;
+
+	return cr;
+}
+
 Corpse* ObjectAccessor::GetCorpseInMap(ObjectGuid guid, uint32 mapid)
 {
     Corpse * ret = HashMapHolder<Corpse>::Find(guid);
