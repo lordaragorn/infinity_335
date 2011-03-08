@@ -20,6 +20,7 @@
 #include "Player.h"
 #include "ObjectGuid.h"
 #include "ObjectAccessor.h"
+#include "ObjectMgr.h"
 #include "OutdoorPvPMgr.h"
 #include "WorldPacket.h"
 #include "Language.h"

@@ -22,6 +22,7 @@
 #include "GameObject.h"
 #include "ObjectGuid.h"
 #include "ObjectAccessor.h"
+#include "ObjectMgr.h"
 #include "OutdoorPvPMgr.h"
 #include "Creature.h"
 #include "Language.h"

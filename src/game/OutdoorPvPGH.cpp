@@ -22,6 +22,7 @@
 #include "World.h"
 #include "ObjectGuid.h"
 #include "ObjectAccessor.h"
+#include "ObjectMgr.h"
 #include "Language.h"
 
 
