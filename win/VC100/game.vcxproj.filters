@@ -25,6 +25,9 @@
     <Filter Include="vmaps">
       <UniqueIdentifier>{948284d3-9d89-4609-8cdd-28a213edb53e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="IRC">
+      <UniqueIdentifier>{dfba659a-dad2-4bb6-b32a-f80bf7c7bcda}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Playerbot">
       <UniqueIdentifier>{54e1b297-6787-4c05-b037-7f0078304640}</UniqueIdentifier>
     </Filter>
@@ -170,6 +173,30 @@
     </ClCompile>
     <ClCompile Include="..\..\src\game\MapUpdater.cpp">
       <Filter>World/Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCClient.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCSock.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCCmd.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCCmde.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCConf.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCIO.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\IRCLog.cpp">
+      <Filter>IRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\mangchat\MCS_OnlinePlayers.cpp">
+      <Filter>IRC</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\game\MapPersistentStateMgr.cpp">
       <Filter>World/Handlers</Filter>
@@ -650,6 +677,24 @@
     </ClInclude>
     <ClInclude Include="..\..\src\game\MapUpdater.h">
       <Filter>World/Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\mangchat\IRCClient.h">
+      <Filter>IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\mangchat\IRCCmd.h">
+      <Filter>IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\mangchat\IRCConf.h">
+      <Filter>IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\mangchat\IRCFunc.h">
+      <Filter>IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\mangchat\IRCLog.h">
+      <Filter>IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\mangchat\MCS_OnlinePlayers.h">
+      <Filter>IRC</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\game\MapPersistentStateMgr.h">
       <Filter>World/Handlers</Filter>

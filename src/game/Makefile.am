@@ -17,6 +17,7 @@
 ## Process this file with automake to produce Makefile.in
 
 ## Sub-directories to parse
+SUBDIRS = mangchat
 SUBDIRS = playerbot
 SUBDIRS = vmap
 
